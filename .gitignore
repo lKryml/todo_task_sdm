@@ -1,0 +1,32 @@
+# Flutter/Dart/Pub related
+**/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.idea/
+.vscode/
+*.iml
+
+# Android specific
+/android/**/gradle-wrapper.jar
+/android/.gradle
+/android/.idea
+/android/local.properties
+
+# iOS specific
+ios/Pods
+ios/.symlinks
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# macOS specific
+macos/Pods/
+macos/.symlinks
+macos/Flutter/Flutter.framework
+
+# Miscellaneous
+.DS_Store
+*.log
+*.lock
